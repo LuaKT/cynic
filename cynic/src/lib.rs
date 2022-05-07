@@ -186,7 +186,7 @@ pub use self::core::{Enum, InlineFragments, InputObject, QueryFragment};
 pub use builders::{MutationBuilder, QueryBuilder, SubscriptionBuilder};
 pub use id::Id;
 pub use operation::Operation;
-pub use result::{GraphQlError, GraphQlResponse};
+pub use result::{GraphQlError, GraphQlErrorPathSegment, GraphQlResponse};
 pub use variables::QueryVariables;
 
 pub use cynic_proc_macros::{
